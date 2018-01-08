@@ -9,18 +9,6 @@
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-structure-extractor;2017.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-structure-extractor;2017.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-structure-extractor;2017.2[0m
-[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-structure-extractor;2017.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jetbrains#sbt-idea-shell;2017.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jetbrains#sbt-idea-shell;2017.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jetbrains#sbt-idea-shell;2017.2[0m
-[0m[[0mdebug[0m] [0m	found org.jetbrains#sbt-idea-shell;2017.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.8.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}[0m
@@ -771,10 +759,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -1338,10 +1322,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -2760,10 +2740,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile-internal][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -3932,10 +3908,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -4501,10 +4473,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#scalashop-build;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-structure-extractor;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#global-plugins;0.0->org.jetbrains#sbt-idea-shell;2017.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#scalashop-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile][0m
@@ -5726,8 +5694,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0!sbteclipse-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-js#sbt-scalajs;0.6.11!sbt-scalajs.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.get-coursier#sbt-coursier;1.0.0-RC2!sbt-coursier.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor;2017.2!sbt-structure-extractor.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
@@ -5807,7 +5773,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 743ms :: artifacts dl 19ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 852ms :: artifacts dl 45ms[0m
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT compile produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT runtime produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT test produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-test.xml[0m
@@ -5821,5 +5787,5 @@
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT docs produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT pom produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#scalashop-build;0.1-SNAPSHOT scala-tool produced in /home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A01-Parallel-Box-Blur-Filter/scalashop/project/target/resolution-cache/reports/default-scalashop-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (743ms resolve - 19ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (852ms resolve - 45ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
