@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning reductions.ParallelParenthesesBalancingRunner [0m
+[0m[[0minfo[0m] [0mRunning reductions.LineOfSightRunner [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A02-CountChange-BalanceParanthesis-LineOfSight/reductions/target/scala-2.11/classes[0m
