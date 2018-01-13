@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning reductions.ParallelCountChangeRunner [0m
+[0m[[0minfo[0m] [0mRunning reductions.ParallelParenthesesBalancingRunner [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/sushil/study/functional-programming-in-scala-specialization/C03-Parallel-Programming-In-Scala/A02-CountChange-BalanceParanthesis-LineOfSight/reductions/target/scala-2.11/classes[0m
@@ -12,15 +12,3 @@
 [0m[[0mdebug[0m] [0m	/home/sushil/.ivy2/cache/com.github.scala-blitz/scala-blitz_2.11/jars/scala-blitz_2.11-1.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/sushil/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/bundles/scala-swing_2.11-1.0.1.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-1-worker-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-1-worker-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-1-worker-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-1-worker-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-1-worker-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-1-worker-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread ForkJoinPool-1-worker-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted ForkJoinPool-1-worker-3[0m
-[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-[0m[[0mdebug[0m] [0mExited with code 0[0m
