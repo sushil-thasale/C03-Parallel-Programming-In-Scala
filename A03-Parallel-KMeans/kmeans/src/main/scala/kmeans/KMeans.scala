@@ -64,8 +64,12 @@ class KMeans {
     new Point(x / points.length, y / points.length, z / points.length)
   }
 
+  /**
+    * Take care to preserve order in the resulting generic sequence --
+    * the mean i in the resulting sequence must correspond to the mean i from oldMeans.
+    */
   def update(classified: GenMap[Point, GenSeq[Point]], oldMeans: GenSeq[Point]): GenSeq[Point] = {
-    classified.par.map {case(mean, points) => findAverage(mean, points)}.toSeq
+    oldMeans.par.map(oldMean => findAverage(oldMean, classified(oldMean)))
   }
 
   def converged(eta: Double)(oldMeans: GenSeq[Point], newMeans: GenSeq[Point]): Boolean = {
